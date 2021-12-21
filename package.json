@@ -1,0 +1,31 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@storybook/addon-actions": "^6.4.9",
+    "@storybook/addon-essentials": "^6.4.9",
+    "@storybook/addon-links": "^6.4.9",
+    "@storybook/vue": "^6.4.9",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-loader": "^8.2.3",
+    "cross-env": "^7.0.3",
+    "lerna": "^4.0.0",
+    "vue-loader": "^15.9.8",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "dependencies": {
+    "vue": "^2.6.14"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "lerna": "lerna publish",
+    "build:prod": "cross-env NODE_ENV=production rollup -c",
+    "build:dev": "cross-env NODE_ENV=development rollup -c",
+    "clean": "lerna clean"
+  }
+}

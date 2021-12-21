@@ -1,0 +1,32 @@
+{
+  "name": "j-input",
+  "version": "0.0.1",
+  "description": "input 组件",
+  "keywords": [
+    "input"
+  ],
+  "author": "whn <746026935@qq.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "src/input.vue",
+  "directories": {
+    "lib": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7-hn/lerna-repo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/7-hn/lerna-rep/issues"
+  },
+  "dependencies": {
+    "semantic-ui-css": "2.4.1"
+  }
+}

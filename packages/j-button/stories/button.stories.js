@@ -17,7 +17,9 @@ const Button = (args) => ({
   },
   template: '<j-button v-bind="args" @click="action">按钮</j-button>',
   methods: {
-    action: action('clicked')
+    action () {
+      console.log('点击按钮了')
+    }
   }
 })
 

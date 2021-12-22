@@ -1,6 +1,6 @@
 {
-  "name": "j-form-item",
-  "version": "0.0.4",
+  "name": "j-test-form-item",
+  "version": "0.0.0",
   "description": "form-item 组件",
   "keywords": [
     "form-item"
@@ -31,5 +31,6 @@
   "dependencies": {
     "async-validator": "^4.0.7",
     "semantic-ui-css": "2.4.1"
-  }
+  },
+  "gitHead": "afec7bc3ede51a50e73ea17c5619a817877e6ab3"
 }

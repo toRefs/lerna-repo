@@ -1,6 +1,6 @@
 {
-  "name": "j-steps",
-  "version": "0.0.4",
+  "name": "j-test-steps",
+  "version": "0.0.0",
   "description": "steps 组件",
   "keywords": [
     "steps"
@@ -30,5 +30,6 @@
   },
   "dependencies": {
     "semantic-ui-css": "2.4.1"
-  }
+  },
+  "gitHead": "afec7bc3ede51a50e73ea17c5619a817877e6ab3"
 }

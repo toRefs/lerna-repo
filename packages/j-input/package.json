@@ -1,6 +1,6 @@
 {
-  "name": "j-input",
-  "version": "0.0.4",
+  "name": "j-test-input",
+  "version": "0.0.0",
   "description": "input 组件",
   "keywords": [
     "input"
@@ -30,5 +30,6 @@
   },
   "dependencies": {
     "semantic-ui-css": "2.4.1"
-  }
+  },
+  "gitHead": "afec7bc3ede51a50e73ea17c5619a817877e6ab3"
 }

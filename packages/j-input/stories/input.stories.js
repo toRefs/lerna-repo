@@ -1,13 +1,13 @@
-import LgInput from '../'
+import JInput from '../'
 
 export default {
-  title: 'LgInput',
-  component: LgInput
+  title: 'JInput',
+  component: JInput
 }
 
 export const Text = () => ({
-  components: { LgInput },
-  template: '<lg-input v-model="value"></lg-input>',
+  components: { JInput },
+  template: '<j-input v-model="value"></j-input>',
   data () {
     return {
       value: 'admin'
@@ -16,8 +16,8 @@ export const Text = () => ({
 })
 
 export const Password = () => ({
-  components: { LgInput },
-  template: '<lg-input type="password" v-model="value"></lg-input>',
+  components: { JInput },
+  template: '<j-input type="password" v-model="value"></j-input>',
   data () {
     return {
       value: 'admin'

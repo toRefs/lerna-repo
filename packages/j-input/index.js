@@ -1,7 +1,8 @@
-import LgInput from './src/input.vue'
+import JInput from './src/input.vue'
+import 'semantic-ui-css/semantic.min.css'
 
-LgInput.install = Vue => {
-  Vue.component(LgInput.name, LgInput)
+JInput.install = Vue => {
+  Vue.component(JInput.name, JInput)
 }
 
-export default LgInput
+export default JInput

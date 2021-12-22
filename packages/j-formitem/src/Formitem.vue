@@ -1,9 +1,9 @@
 <template>
-  <div>
-    <label>{{ label }}</label>
-    <div>
+  <div class="ui form">
+    <div :class="{ required: !!label, error: errMessage }" class="field">
+      <label>{{ label }}</label>
       <slot></slot>
-      <p v-if="errMessage">{{ errMessage }}</p>
+      <p style="display: block" class="ui warning message" v-if="errMessage"> {{ errMessage }} </p>
     </div>
   </div>
 </template>

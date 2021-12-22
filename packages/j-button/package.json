@@ -21,12 +21,13 @@
     "url": "git+https://github.com/7-hn/lerna-repo.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "del": "rimraf dist"
   },
   "bugs": {
     "url": "https://github.com/7-hn/lerna-rep/issues"
   },
   "dependencies": {
-    "semantic-ui-css": "2.4.1"
+    "semantic-ui-css": "^2.4.1"
   }
 }

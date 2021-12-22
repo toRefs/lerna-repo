@@ -25,6 +25,8 @@
 -->
 
 <script>
+import 'semantic-ui-css/semantic.min.css'
+
 export default {
   name: 'j-headline',
   props: {

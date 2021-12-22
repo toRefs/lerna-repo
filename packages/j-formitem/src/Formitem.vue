@@ -9,6 +9,7 @@
 </template>
 
 <script>
+import 'semantic-ui-css/semantic.min.css'
 import AsyncValidator from 'async-validator'
 export default {
   name: 'JFormItem',

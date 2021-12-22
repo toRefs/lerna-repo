@@ -1,4 +1,4 @@
-import JHeadline from './src/headline'
+import JHeadline from './src/headline.vue'
 import 'semantic-ui-css/semantic.min.css'
 
 JHeadline.install = (Vue) => {

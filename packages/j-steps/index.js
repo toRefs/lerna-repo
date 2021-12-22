@@ -1,4 +1,4 @@
-import JSteps from './src/steps'
+import JSteps from './src/steps.vue'
 import 'semantic-ui-css/semantic.min.css'
 
 JSteps.install = Vue => {

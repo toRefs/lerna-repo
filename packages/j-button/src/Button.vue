@@ -31,7 +31,7 @@ export default {
       default: 'primary',
       validator (value) {
         // 只要传入size属性，就会进入到这个函数，返回true生效，false不生效
-        return ['primary', 'basic', 'secondary', 'red', 'green'].includes(value)
+        return ['primary', 'basic', 'secondary', 'red', 'green', 'purple'].includes(value)
       }
     },
     size: {

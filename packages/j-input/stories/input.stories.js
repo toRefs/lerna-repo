@@ -17,7 +17,7 @@ export const Text = () => ({
 
 export const Password = () => ({
   components: { JInput },
-  template: '<j-input type="password" v-model="value"></j-input>',
+  template: '<j-input type="password" @input="console.log($event)" v-model="value"></j-input>',
   data () {
     return {
       value: 'admin'

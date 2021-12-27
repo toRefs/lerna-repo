@@ -27,7 +27,7 @@ Default.args = {
   size: 'massive'
 }
 
-export const anmiated = (args) => ({
+export const animated = (args) => ({
   components: { JButton },
   data () {
     return { args }
